@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').load();
 var nodeModel = require('./lib/node');
 
 var node = new nodeModel();
